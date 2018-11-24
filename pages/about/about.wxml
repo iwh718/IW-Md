@@ -1,0 +1,19 @@
+<!--pages/about/about.wxml-->
+<wave></wave>
+<view class='list'>
+<view class='list_box'>
+    <view class='list_item' >GitHUb：xxx</view>
+    <view class=' fa fa-chevron-right'></view>
+</view>
+<view class='list_box'>
+    <view class='list_item' >QQ群：xxx</view>
+    <view class=' fa fa-chevron-right'></view>
+</view>
+<view class='list_box'>
+    <view class='list_item' >作者：IWH</view>
+    <view class=' fa fa-chevron-right'></view>
+</view>
+</view>
+
+
+<tabBar></tabBar>

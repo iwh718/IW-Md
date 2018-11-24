@@ -1,0 +1,16 @@
+/* pages/component/tabBar/tabBar.wxss */
+.tabBar{
+    text-align: center;
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+    padding: 15rpx;
+    
+}
+.tabBar .tabBar_item{
+    width: 100%;
+    color: #f11f1f;
+    text-align: center;
+}

@@ -1,0 +1,4 @@
+<!--pages/component/Float/float.wxml-->
+<view class='fab_box'>
+    <view class='fab_icon'><text class='fa -fa-plus'></text></view>
+</view>

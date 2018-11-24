@@ -1,0 +1,8 @@
+<!--pages/loading/loading.wxml-->
+<view class='loading'>
+    <view class="fa fa-circle-o-notch fa-2x" animation="{{ani_load}}"></view>
+</view>
+<loading id='iw_load'></loading>
+<iw_hi id='iw_hi'></iw_hi>
+<view class='iw_btn' bindtap='stopLoading'>移除</view>
+

@@ -1,0 +1,10 @@
+<!--pages/floating/floating.wxml-->
+<iw_hi id='iw_hi'></iw_hi>
+<view class='fab_box' bindtap='toShow'>
+    <view class=' fab_icon'>
+        <text class='fa fa-plus'></text>
+    </view>
+</view>
+<view class='fa_undo' animation="{{ani_undo}}">
+    <view>你点击了，悬浮组件。</view>
+</view>

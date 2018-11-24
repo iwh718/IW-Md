@@ -1,0 +1,20 @@
+<!--utils/wave/waves.wxml-->
+<view class="wave">
+ <view class='user_box' hidden="{{isShowInfo}}">
+        <image src='../../res/IW/iwLogo.png'  class='userInfo'>
+          </image>
+       
+        <view class='userInfo_name'>
+          IW：欢迎您
+        </view>
+    </view>
+
+    <view class="water">
+        <view class="water-c">
+            <view class="water-1"> </view>
+            <view class="water-2"> </view>
+        </view>
+    </view>
+		
+  </view>
+

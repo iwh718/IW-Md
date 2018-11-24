@@ -1,0 +1,9 @@
+/**app.wxss**/
+@import"pages/fontAwesome";
+.i_color{
+    color: #f11f1f;
+   
+}
+.w_color{
+    color: #6898db;
+}

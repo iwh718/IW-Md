@@ -1,0 +1,4 @@
+<view class='iw_hi'>
+    <image src='../../res/IW/iwLogo.png'></image>
+    <view>{{tips}}</view>
+</view>

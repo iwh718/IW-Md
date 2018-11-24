@@ -1,0 +1,34 @@
+.fab_box{
+    position: fixed;
+    bottom: 40px;
+    right: 20rpx;
+    width: 100rpx;
+    height: 100rpx;
+    border-radius: 50%;
+    color:#f11f1f;
+     text-align: center;
+    box-shadow: 2px 2px 2px 2px rgba(0,0,0,0.1);
+}
+.fab_icon text{
+    border-radius: 50%;
+    width:100%;
+    margin:35rpx auto;
+   
+}
+.fa_undo{
+    border-radius: 5px 5px 0  0 ;
+    text-align: center;
+    background: #6898db;
+    color: #fff;
+    position: fixed;
+    bottom: -100px;
+    right: 0;
+    width: 100%;
+    height: 30px;
+}
+.fa_undo view{
+    font-size: 15px;
+    height:60rpx;
+    margin-top: 10rpx;
+    width: 100%;
+}

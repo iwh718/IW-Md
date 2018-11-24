@@ -1,0 +1,5 @@
+/* pages/about/about.wxss */
+@import '../comList/comList';
+.list{
+    margin-top: 150rpx
+}

@@ -1,0 +1,27 @@
+{
+    "pages": [
+        "pages/index/index",
+        "pages/logs/logs",
+        "pages/comList/comList",
+        "pages/component/tabBar/tabBar",
+        "pages/about/about",
+        "pages/component/wave/wave",
+        "pages/component/Load/load",
+        "pages/loading/loading",
+        "pages/floating/floating",
+        "pages/table/table",
+        "pages/tips/tips",
+        "pages/tab/tab",
+     
+        "pages/component/Float/float",
+        "pages/component/iw_hi/iw_hi",
+        "pages/component/Toast/toast"
+    ],
+    "window": {
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#fff",
+        "navigationBarTitleText": "IW-MD组件",
+        "navigationBarTextStyle": "black",
+        "enablePullDownRefresh": true
+    }
+}

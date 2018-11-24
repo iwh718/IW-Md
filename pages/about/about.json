@@ -1,0 +1,13 @@
+{
+    "usingComponents": {
+        "wave": "../component/wave/wave",
+        "tabBar": "../component/tabBar/tabBar"
+    },
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#f11f1f",
+    "navigationBarTitleText": "关于IW-MD组件",
+    "navigationBarTextStyle": "white",
+    "enablePullDownRefresh": true
+
+   
+}

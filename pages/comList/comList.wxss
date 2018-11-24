@@ -1,0 +1,32 @@
+/* pages/comLIst/comList.wxss */
+.list_box{
+    z-index: 1000!important;
+    font-family: '幼圆';
+    border-radius: 20rpx;
+    width: 90%;
+    margin: 2.5%;
+    padding: 2.5%;
+    box-shadow:  2px 2px 2px 2px rgba(61, 61, 61, 0.075);
+    text-align: left;
+    display: flex;
+    color: rgb(66, 66, 66);
+     margin-top: 50rpx;
+
+}
+.list_item{
+    width: 100%;
+   
+
+}
+.list_box :nth-child(1){
+    flex: 3;
+}
+.list_box :nth-child(2){
+    flex: 1;
+    color: #f11f1f;
+    text-align: right;
+}
+.iw_body{
+    width: 100%;
+ 
+}

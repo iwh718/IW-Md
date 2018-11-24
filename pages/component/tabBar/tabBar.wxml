@@ -1,0 +1,12 @@
+<!--pages/component/tabBar/tabBar.wxml-->
+<view class='tabBar' hidden="{{hideFlag}}">
+    <view class='tabBar_item top'>
+       
+        <view bindtap='toIndex'>组件</view>
+    </view>
+    <view class='tabBar_item'>
+       
+        <view bindtap='toUrl'>关于</view>
+    </view>
+
+</view>
