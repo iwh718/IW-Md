@@ -9,8 +9,13 @@ Page({
     },
     copy(){
         wx.setClipboardData({
-            data: '938837324',
+            data: '778399961',
         })
+    },
+    git(){
+wx.setClipboardData({
+    data: 'https://github.com/iwh718/IW-Md',
+})
     },
 
     /**

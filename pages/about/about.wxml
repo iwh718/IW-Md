@@ -1,16 +1,20 @@
 <!--pages/about/about.wxml-->
 <wave></wave>
 <view class='list'>
-<view class='list_box'>
-    <view class='list_item' >GitHub：xxx</view>
-    <view class=' fa fa-chevron-right'></view>
-</view>
-<view class='list_box'>
-    <view class='list_item' bindtap='copy'>QQ群：938837324</view>
-    <view class=' fa fa-chevron-right'></view>
-</view>
-<view class='list_box'>
-    <view class='list_item' >作者：IWH</view>
-    <view class=' fa fa-chevron-right'></view>
-</view>
+    <view class='list_box'>
+        <view class='list_item'>GitHub：点击下方链接复制</view>
+
+    </view>
+    <view class='list_box'>
+        <view class='list_item' bindtap='git'>https://github.com/iwh718/IW-Md</view>
+
+    </view>
+    <view class='list_box'>
+        <view class='list_item' bindtap='copy'>QQ群：778399961</view>
+
+    </view>
+    <view class='list_box'>
+        <view class='list_item'>作者：IWH</view>
+
+    </view>
 </view>
