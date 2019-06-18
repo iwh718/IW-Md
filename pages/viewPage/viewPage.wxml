@@ -1,0 +1,11 @@
+<!--pages/viewPage/viewPage.wxml-->
+<view class='tabLayout'>
+
+    <view class="tabItem {{index == selected ? 'selected': ''}}" bindtap='switchPagetch' data-index="{{index}}" wx:for="{{tabs}}" wx:key="">{{tabs[index]}}</view>
+
+</view>
+<swiper class='viewPage' bindchange='switchTab' current="{{nowTab}}">
+    <swiper-item wx:for="{{vpgs}}" wx:key="">
+        <view>{{vpgs[index]}}</view>
+    </swiper-item>
+</swiper>

@@ -1,0 +1,49 @@
+/* pages/StackView/StackView.wxss */
+/**轮播组件**/
+.iwh_stackView{
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+    
+}
+/*菜单*/
+.slide{
+   position: absolute;
+    top: 15%;
+    left: 5%;
+    z-index: 9999!important;
+   color: #fff;
+    width: 30px;
+    height: 30px;
+
+}
+.menu_box{
+
+    background: rgba(59, 58, 58, 0.418);
+    text-align: center;
+     position: absolute;
+     border-radius: 10px;
+     bottom: 0;
+    z-index: 9999!important;
+   color: #fff;
+    width:100%;
+   
+}
+.menu_item{
+    padding: 10rpx;
+}
+.stackItem image{
+    width: 100%;
+}
+.stackItem .stackTitle{
+    text-align: center;
+    position: absolute;
+    top: 50rpx;
+    height: 50rpx;
+    width: 90%;
+    margin-left: 5%;
+    color: #fff;
+    z-index: 9999!important;
+}

@@ -12,11 +12,12 @@
     
  
 }
-.loading view{
+.loading image{
+     width: 60rpx;
+    height: 60rpx;
     padding: 5rpx;
-    border-radius: 50%;
-      border: 1 px solid rgba(0, 0, 0, 0.219);
-    background: #fff;
+  
+
      
 }
 .iw_btn{

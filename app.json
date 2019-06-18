@@ -1,27 +1,40 @@
 {
     "pages": [
         "pages/index/index",
-        "pages/logs/logs",
         "pages/comList/comList",
-        "pages/component/tabBar/tabBar",
         "pages/about/about",
         "pages/component/wave/wave",
         "pages/component/Load/load",
         "pages/loading/loading",
         "pages/floating/floating",
-        "pages/table/table",
-        "pages/tips/tips",
-        "pages/tab/tab",
-     
         "pages/component/Float/float",
         "pages/component/iw_hi/iw_hi",
-        "pages/component/Toast/toast"
+        "pages/viewPage/viewPage",
+        "pages/StackView/StackView",
+        "pages/bottomBar/bottomBar"
     ],
     "window": {
         "backgroundTextStyle": "light",
         "navigationBarBackgroundColor": "#fff",
-        "navigationBarTitleText": "IW-MD组件",
+        "navigationBarTitleText": "IW-Mini组件",
         "navigationBarTextStyle": "black",
         "enablePullDownRefresh": true
-    }
+    },
+    "tabBar": {
+        "color": "#aaaaaa",
+        "borderStyle": "white",
+        "backgroundColor": "#fff",
+        "selectedColor": "#F95A5F",
+        "list": [
+            {
+                "pagePath": "pages/index/index",
+                "text": "首页"
+            },
+            {
+                "pagePath": "pages/about/about",
+                "text": "关于"
+            }
+        ]
+    },
+    "sitemapLocation": "sitemap.json"
 }

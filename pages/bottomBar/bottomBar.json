@@ -1,0 +1,5 @@
+{
+    "usingComponents": {
+        "iw_hi": "../component/iw_hi/iw_hi"
+    }
+}

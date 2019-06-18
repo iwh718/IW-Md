@@ -1,9 +1,59 @@
 /**app.wxss**/
 @import"pages/fontAwesome";
-.i_color{
-    color: #f11f1f;
-   
+/*基础样式*/
+.contain{
+    width: 100%;
 }
-.w_color{
+
+/*文本样式*/
+
+/*文本基础样式*/
+.text{
+    padding: 5rpx;
+}
+/*对齐*/
+.align-c{
+    text-align: center;
+}
+.align-l{
+    text-align: center;
+}
+.align-r{
+    text-align: right;
+}
+/*文本尺寸*/
+.text-s-s{
+    font-size: 12rpx;
+}
+.text-s-m{
+    font-size: 15rpx;
+}
+.text-s-l{
+    font-size: 18rpx;
+}
+/*颜色*/
+.red{
+     color: #f11f1f;
+}
+.green{
+
+}
+.blue{
     color: #6898db;
 }
+.black{
+
+}
+/*flex布局*/
+.flex{
+    display: flex;
+}
+.flex-item{
+    flex: 1;
+}
+.flex-column{
+    flex-direction: column;
+}
+
+
+

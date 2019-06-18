@@ -1,0 +1,9 @@
+<!--pages/bottomBar/bottomBar.wxml-->
+<iw_hi id='iw_hi'></iw_hi>
+
+<view class='bottom-box'>
+    <view bindtap='changePos' hover-class='bottom-float-button-hover' animation="{{floatAnimationData}}" class='bottom-float-button '>
+        <view>{{floatText}}</view>
+    </view>
+  
+</view>

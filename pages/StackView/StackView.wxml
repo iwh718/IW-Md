@@ -1,0 +1,21 @@
+<!--pages/StackView/StackView.wxml-->
+
+<swiper class='iwh_stackView' vertical='true' next-margin='100rpx' circular='true'>
+    <block wx:for="{{stacks}}" wx:key="{{}}">
+        <swiper-item>
+            <view class='slide' bindtap='showSlide'>
+                <text class='fa fa-server'></text>
+            </view>
+            <view class='stackItem'>
+            <view class='stackTitle'>{{stacks[index].title}}</view>
+            <image mode='widthFix' src="{{stacks[index].url}}"></image></view>
+            <view class='menu_box' hidden="{{menuFlag}}">
+                <view class='menu_item' bindtap='goBack'>返回</view>
+                <view class='menu_item'>菜单二</view>
+                <view class='menu_item'>菜单三</view>
+            </view>
+        </swiper-item>
+    </block>
+
+
+</swiper>

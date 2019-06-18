@@ -1,10 +1,7 @@
 <!--pages/comLIst/comList.wxml-->
 <view class='iw_body'>
-
 <view class='list_box' wx:for="{{comList}}" wx:key="">
     <view class='list_item' bindtap='toShow' data-id="{{index}}">{{comList[index]}}</view>
     <view class=' fa fa-chevron-right'></view>
 </view>
 </view>
-
-<tabBar id='tabBar'></tabBar>

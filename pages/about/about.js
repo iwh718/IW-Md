@@ -7,6 +7,11 @@ Page({
     data: {
       
     },
+    copy(){
+        wx.setClipboardData({
+            data: '938837324',
+        })
+    },
 
     /**
      * 生命周期函数--监听页面加载

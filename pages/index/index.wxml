@@ -1,8 +1,8 @@
 <!--index.wxml-->
+ 
 <view class="welcome_index">
     <image src='../res/IW/iwLogo.png'></image>
-    <view class='iw_name'>IW组件：冬日里的暖阳</view>
-    <view class='iw_desc'>这是一个简单的迷你组件，学习之余写的。</view>
-    <view class='iw_into' bindtap='comList'>进入</view>
-  
+    <view class='iw_name'>IW：Material迷你组件</view>
+    <view class='iw_desc'>这是一个简单的迷你组件库，学习之余写的。</view>
 </view>
+ <view class='begin' bindtap='comList'>进入</view>     
